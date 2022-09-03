@@ -63,12 +63,12 @@ console.log to see the results
 function game() {
     let i;
     for(i = 0; i < 5; i++) {
-        const playerChoice = document.getElementById("player_choice");
-        let computerChoice = document.getElementById("computer");
+        //const playerChoice = document.getElementById("player_choice");
+        //let computerChoice = document.getElementById("computer");
         const playerSelection = playerPlay().toLowerCase();
-        playerChoice.innerHTML = playerChoice.innerHTML.concat(playerSelection +" | ");
+        //playerChoice.innerHTML = playerChoice.innerHTML.concat(playerSelection +" | ");
         const computerSelection = computerPlay();
-        computerChoice.innerHTML = computerChoice.innerHTML.concat(computerSelection +" | ");
+        //computerChoice.innerHTML = computerChoice.innerHTML.concat(computerSelection +" | ");
         let valid = 0;
         for(let x = 0; x < 3; x++) {
             if (playerSelection === selection[x]) {
@@ -117,7 +117,7 @@ function test() {
     game();
     let winner = results();
     console.log(winner);
-    output.innerHTML = winner;
+    //output.innerHTML = winner;
 }
 
 /*
