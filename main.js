@@ -79,6 +79,7 @@ function game() {
             playRound(playerSelection, computerSelection);
         } else {
             gameRecord.push(0);
+            console.log("invalid entry!");
             i--;
         }
 
@@ -112,14 +113,12 @@ function results() {
         return winner;
     }
 }
-
 function test() {
     const output = document.getElementById("results");
     game();
     let winner = results();
     console.log(winner);
     output.innerHTML = winner;
-
 }
 
 /*
