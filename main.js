@@ -82,7 +82,6 @@ function game() {
             console.log("invalid entry!");
             i--;
         }
-
     }
     console.log(gameRecord);
 }
