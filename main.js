@@ -113,7 +113,7 @@ function results() {
     }
 }
 function test() {
-    const output = document.getElementById("results");
+    //const output = document.getElementById("results");
     game();
     let winner = results();
     console.log(winner);
