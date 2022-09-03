@@ -93,7 +93,7 @@ function results() {
 
     let playerscore = 0;
     let computerscore = 0;
-    for(let i = gamesPlayed - 1; i > 0; i--){
+    for(let i = gamesPlayed; i > 0; i--){
         
         if (gameRecord[i] === 1) {
             playerscore = playerscore +1;
